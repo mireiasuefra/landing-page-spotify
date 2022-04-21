@@ -1,0 +1,41 @@
+/* FOOTER */
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  align-items: center;
+}
+
+.nav-footer {
+  display: flex;
+}
+
+.lista-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+
+}
+
+.contenido-lista-footer {
+  margin-right: 30px;
+  margin-top: 14px;
+}
+
+.copy-footer {
+  text-align: right;
+}
+
+.logo-bandera {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.copy-copy {
+ 
+  margin-top: 15px;
+}

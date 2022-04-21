@@ -1,0 +1,54 @@
+/* HERO */
+
+.hero {
+  background-color: rgb(84, 173, 224);
+  padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.hero-title {
+  font-size: 40px;
+}
+
+.img-dancingwoman-hero {
+  display: none;
+}
+
+.hero-text {
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.hero-button {
+  background-color: rgb(88, 223, 76);
+  padding: 10px;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+
+.hero-note {
+  display: block;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+@media (min-width: 780px) {
+  .hero {
+      background-image: url(../../assets/images/premium_dancer.png);
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: 250px; 
+  }
+
+  .hero-button {
+      display: inline-block;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+}

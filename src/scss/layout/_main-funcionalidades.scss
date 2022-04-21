@@ -1,0 +1,43 @@
+/* FUNCIONALIDADES */
+
+.funcionalidades {
+    box-sizing: border-box;
+}
+
+.lista-funcionalidades {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+@media (min-width: 780px) and (max-width: 959px){
+    h2 {
+        font-size: 30px;
+    }
+
+    .lista-funcionalidades {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    } 
+}
+
+@media (min-width: 960px) {
+    h2 {
+        font-size: 40px;
+    }
+
+    .lista-funcionalidades {
+        flex-direction: row;
+        justify-content: center;
+    }
+}

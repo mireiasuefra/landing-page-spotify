@@ -1,0 +1,49 @@
+/* HEADER */
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.menu {
+    color: white;
+    display: none;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-item {
+    margin-left: 10px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.hamburguesa {
+    height: 30px;
+}
+
+@media all and (min-width: 780px) {
+    .menu {
+        display: flex;
+    }
+    
+    .hamburguesa {
+        display: none;
+    }
+
+    .linea-vertical-menu {
+        border-left: 3px solid white;
+        padding-left: 30px;
+        margin-left: 30px;
+    }
+
+
+}
